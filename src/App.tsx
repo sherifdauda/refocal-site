@@ -121,7 +121,7 @@ export function App() {
   alt="Refocal Studio"
   className="w-10 h-10"
 />
-          
+
         </motion.nav>
 
         {/* Massive Hero Text */}
@@ -154,7 +154,7 @@ export function App() {
 
           <div className="w-full md:w-1/3 text-center order-1 md:order-2">
             <p className="text-xs sm:text-xs text-white/80 font-light tracking-wide uppercase leading-relaxed max-w-xs mx-auto">
-              Helping companies communicate complex ideas through clear,
+              Helping businesses communicate complex ideas through clear,
               intentional visuals.
             </p>
           </div>
