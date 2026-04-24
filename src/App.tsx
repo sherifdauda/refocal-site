@@ -116,9 +116,12 @@ export function App() {
           {...blurFade(0.2)}
           className="absolute top-0 left-0 right-0 z-20 p-6 md:p-8 flex justify-between items-start w-full">
           
-          <div className="border border-white/30 rounded-full px-5 py-1.5 text-xs sm:text-xs tracking-widest uppercase text-white/90">
-            Refocal Studio
-          </div>
+          <img
+  src="/refocal-logo.svg"
+  alt="Refocal Studio"
+  className="w-10 h-10"
+/>
+          
         </motion.nav>
 
         {/* Massive Hero Text */}
