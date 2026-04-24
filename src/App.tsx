@@ -167,6 +167,27 @@ export function App() {
         </motion.div>
       </section>
 
+      {/* ABOUT LINE */}
+<section className="relative z-10 w-full bg-[#050505] py-16 px-6 flex items-center justify-center border-t border-white/5">
+  <motion.p
+    initial={{ opacity: 0, y: 16 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true, margin: '-50px' }}
+    transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+    className="text-xs sm:text-sm text-white/40 font-light tracking-wide text-center"
+  >
+    Refocal Studio is an extension of Sherif Dauda&apos;s work.{' '}
+    <a
+      href="https://sherifdauda.notion.site"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-white/60 hover:text-white transition-colors cursor-pointer"
+    >
+      View selected projects →
+    </a>
+  </motion.p>
+</section>
+
       {/* SECOND SECTION - Email Signup */}
       <section className="relative z-10 w-full bg-[#050505] py-32 px-6 flex flex-col items-center justify-center border-t border-white/5">
         <motion.div
