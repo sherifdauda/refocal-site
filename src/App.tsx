@@ -145,7 +145,7 @@ export function App() {
           
           <div className="w-full md:w-1/3 text-center md:text-left order-2 md:order-1">
             <p className="text-xs sm:text-xs text-white/60 tracking-[0.2em] uppercase font-medium">
-              Coming soon.
+              Coming soon
             </p>
           </div>
 
