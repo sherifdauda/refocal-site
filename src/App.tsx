@@ -213,7 +213,7 @@ export function App() {
           className="w-full max-w-md flex flex-col items-center text-center">
           
           <p className="text-sm md:text-base text-white/50 font-light tracking-wide mb-8">
-            Be the first to know when Refocal Studio launches →
+            Be the first to know wen Refocal Studio launches →
           </p>
 
           {!submitted ?
